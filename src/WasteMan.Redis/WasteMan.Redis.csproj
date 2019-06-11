@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="1.2.6" />
+    <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="3.5.0" />
+    <PackageReference Include="StackExchange.Redis.Extensions.Protobuf" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WasteMan.Common\WasteMan.Common.csproj" />
+    <ProjectReference Include="..\WasteMan.Redis.Data\WasteMan.Redis.Data.csproj" />
+  </ItemGroup>
+
+</Project>

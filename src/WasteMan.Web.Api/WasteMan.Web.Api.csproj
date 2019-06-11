@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WasteMan.Algorithm\WasteMan.Algorithm.csproj" />
+    <ProjectReference Include="..\WasteMan.MongoDB.Serialization\WasteMan.MongoDB.Serialization.csproj" />
+    <ProjectReference Include="..\WasteMan.MongoDB\WasteMan.MongoDB.csproj" />
+    <ProjectReference Include="..\WasteMan.SignalR\WasteMan.SignalR.csproj" />
+  </ItemGroup>
+
+</Project>

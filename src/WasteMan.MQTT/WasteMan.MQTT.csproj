@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MQTTnet" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WasteMan.MQTT.Configuration\WasteMan.MQTT.Configuration.csproj" />
+    <ProjectReference Include="..\WasteMan.MQTT.Data\WasteMan.MQTT.Data.csproj" />
+    <ProjectReference Include="..\WasteMan.Redis\WasteMan.Redis.csproj" />
+  </ItemGroup>
+
+</Project>

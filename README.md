@@ -44,6 +44,9 @@ __Research Status__
 - [Redis](https://redis.io/download) - Windows: either use docker or [this](https://github.com/microsoftarchive/redis/releases)
 - [.NET Core](https://dotnet.microsoft.com/) - 2.1 or higher (due to SignalR dependecy)
 
+## Installation/Operation
+[WasteMan Wiki](https://github.com/IanEscober/WasteMan/wiki)
+
 ## Contribution
 Yeet a Pull Request
 

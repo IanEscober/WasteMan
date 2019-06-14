@@ -1,3 +1,6 @@
+#Docker env file
+.env
+
 wwwroot/
 # When wwwroot/ is commented out, excluse .min and .map files
 #*.min.css

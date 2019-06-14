@@ -20,5 +20,9 @@
     <ProjectReference Include="..\WasteMan.MongoDB\WasteMan.MongoDB.csproj" />
     <ProjectReference Include="..\WasteMan.SignalR\WasteMan.SignalR.csproj" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true" />
+  </ItemGroup> 
 
 </Project>

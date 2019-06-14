@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  redis:
+    ports:
+      - "6379:6379"
+
+  mongodb:
+    ports:
+      - "27017:27017"
+
+  wasteman:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+    env_file:
+      - .env
+    ports:
+      - "5000:80"

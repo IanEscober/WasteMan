@@ -54,8 +54,7 @@ namespace WasteMan.Common.Helpers
 
         public static GarbageBin Link(this GarbageBin bin, GarbageBin prevBin)
         {
-
-            if (bin.Status != null)
+            if (bin.Status != null || !bin.LidSate.IsLidStateValid())
             {
                 bin.Location = prevBin.Location;
                 LinkStatus(ref bin, prevBin);

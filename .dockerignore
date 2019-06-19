@@ -7,6 +7,7 @@
 **/bin
 **/obj
 **/Properties
-
+**/*.csproj.user
+**/Dockerfile
 # For SCD Deployment - Uncomment the line below
-!**/publish/**
+#!**/publish/**
